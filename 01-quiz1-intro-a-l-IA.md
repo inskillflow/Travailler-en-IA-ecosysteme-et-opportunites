@@ -1,6 +1,6 @@
 # Quiz 1 - Introduction à l'intelligence artificielle
 
-#**1.** Qu’est-ce que l’intelligence artificielle (IA) ?
+# **1.** Qu’est-ce que l’intelligence artificielle (IA) ?
 
 a) Un robot
 
@@ -33,7 +33,7 @@ c) Un robot humanoïde
 
 d) Une mode
 
-**5.** Donne un exemple d’IA dans la vie quotidienne d’une personne :
+# **5.** Donne un exemple d’IA dans la vie quotidienne d’une personne :
 
 a) Recommandations Netflix
 
@@ -43,7 +43,7 @@ c) Assistants vocaux
 
 d) Toutes ces réponses
 
-**6.** Qui peut utiliser l’IA ?
+# **6.** Qui peut utiliser l’IA ?
 
 a) Seulement les grandes entreprises
 
@@ -53,7 +53,7 @@ c) Les particuliers
 
 d) Tout le monde
 
-**7.** À quoi l’IA sert-elle dans les entreprises ?
+# **7.** À quoi l’IA sert-elle dans les entreprises ?
 
 a) Optimiser la logistique
 
@@ -63,10 +63,10 @@ c) Analyser des données
 
 d) Toutes ces réponses
 
-**8.** Vrai ou Faux :
+# **8.** Vrai ou Faux :
 Les petits commerces peuvent utiliser l’IA pour mieux cibler leurs clients.
 
-**9.** Quel est l’usage principal de l’IA chez Netflix ?
+# **9.** Quel est l’usage principal de l’IA chez Netflix ?
 
 a) Recommandations personnalisées
 
@@ -76,7 +76,7 @@ c) Produire des films
 
 d) Envoyer des emails
 
-**10.** Quel est le « secret » commun à Netflix, Google et Amazon ?
+# **10.** Quel est le « secret » commun à Netflix, Google et Amazon ?
 
 a) Ils utilisent beaucoup de données et d’algorithmes pour personnaliser leurs services
 
