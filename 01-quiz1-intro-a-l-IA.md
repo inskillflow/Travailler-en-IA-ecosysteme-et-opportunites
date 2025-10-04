@@ -1,6 +1,6 @@
 # Quiz 1 - Introduction à l'intelligence artificielle
 
-**1.** Qu’est-ce que l’intelligence artificielle (IA) ?
+#**1.** Qu’est-ce que l’intelligence artificielle (IA) ?
 
 a) Un robot
 
@@ -10,7 +10,7 @@ c) Un téléphone portable
 
 d) Un langage de programmation
 
-**2.** L’IA est déjà utilisée dans :
+# **2.** L’IA est déjà utilisée dans :
 
 a) Les recommandations de films
 
@@ -20,10 +20,10 @@ c) Les assistants vocaux
 
 d) Toutes ces réponses
 
-**3.** Vrai ou Faux :
+# **3.** Vrai ou Faux :
 L’IA actuelle sait tout faire comme un humain.
 
-**4.** Quand on dit que l’IA est un « terme parapluie », cela veut dire :
+# **4.** Quand on dit que l’IA est un « terme parapluie », cela veut dire :
 
 a) Un seul outil
 
