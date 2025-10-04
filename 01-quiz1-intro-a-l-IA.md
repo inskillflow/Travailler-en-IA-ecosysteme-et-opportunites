@@ -86,3 +86,33 @@ c) Ils remplacent tous les employés par des robots
 
 d) Ils arrêtent les interactions humaines
 
+
+
+# Réponses: 
+
+Voici le corrigé demandé :
+
+---
+
+**Réponses**
+
+1. **b)** Un programme qui imite certaines capacités humaines
+
+2. **d)** Toutes ces réponses
+
+3. **Faux**
+
+4. **b)** Plusieurs technologies regroupées
+
+5. **d)** Toutes ces réponses
+
+6. **d)** Tout le monde
+
+7. **d)** Toutes ces réponses
+
+8. **Vrai**
+
+9. **a)** Recommandations personnalisées
+
+10. **a)** Ils utilisent beaucoup de données et d’algorithmes pour personnaliser leurs services
+
