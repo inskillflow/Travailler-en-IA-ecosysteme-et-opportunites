@@ -37,14 +37,8 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  RULES[Hand-written rules (if-then)]
-  RUNTIME[(Runtime data)]
-  ENGINE[Rule engine]
-  DECISION[Decision / Action]
-
-  RULES --> ENGINE
-  RUNTIME --> ENGINE
-  ENGINE --> DECISION
+  RULES["Hand-written rules if-then"]; RUNTIME["Runtime data"]; ENGINE["Rule engine"]; DECISION["Decision/Action"];
+  RULES --> ENGINE; RUNTIME --> ENGINE; ENGINE --> DECISION;
 ```
 
 **Lecture rapide**
