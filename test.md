@@ -117,15 +117,10 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  IMGS[(Images)]
-  CNN[Deep CNN]
-  WEIGHTS[(Learned weights)]
-  TESTIMG[(New image)]
-  BOXES[Detections (boxes, classes)]
-
-  IMGS --> CNN --> WEIGHTS
-  WEIGHTS --> BOXES
-  TESTIMG --> BOXES
+  IMGS["Images"]; CNN["Deep CNN"]; WEIGHTS["Learned weights"]; TESTIMG["New image"]; DETS["Detections: boxes + classes"];
+  IMGS --> CNN --> WEIGHTS;
+  WEIGHTS --> DETS;
+  TESTIMG --> DETS;
 ```
 
 ### D) DL (speech/avatar) — text & voice
