@@ -151,13 +151,20 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-  Q0{Need learning from data?}
-  Q0 -- No --> RB[Rules-based: write if-then rules]
-  Q0 -- Yes --> Q1{Data type mostly structured?}
-  Q1 -- Yes --> ML[Use ML (trees, SVM, regression)]
-  Q1 -- No --> Q2{Images/Audio/Text or high complexity?}
-  Q2 -- Yes --> DL[Use DL (CNN/RNN/Transformer)]
-  Q2 -- No --> ML2[ML + feature engineering]
+  Q0{"Need learning from data?"};
+  RB["Rules based: write if then"];
+  Q1{"Data mostly structured?"};
+  ML["Use ML: trees SVM regression"];
+  Q2{"Unstructured data or high complexity?"};
+  DL["Use DL: CNN RNN Transformer"];
+  ML2["ML with feature engineering"];
+
+  Q0 -->|No| RB;
+  Q0 -->|Yes| Q1;
+  Q1 -->|Yes| ML;
+  Q1 -->|No| Q2;
+  Q2 -->|Yes| DL;
+  Q2 -->|No| ML2;
 ```
 
 ### G) Compact — ML in one glance
