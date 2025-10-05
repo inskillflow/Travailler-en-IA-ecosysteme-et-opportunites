@@ -46,3 +46,24 @@ Tu peux ainsi montrer clairement la différence :
 
 * **ML** : Data en entrée → Règles (modèle) en sortie
 * **IA règles** : Règles en entrée → Décision en sortie
+
+
+
+
+Parfait, voici le diagramme **IA par règles** simplifié au maximum avec **juste RULES en input** (colorié) et **DECISION en output** (colorié). Compatible GitHub :
+
+```mermaid
+flowchart LR
+  RULES["RULES (input)"] --> ENGINE["RULE ENGINE"] --> DEC["DECISION (output)"];
+
+  classDef input fill:#d4f7d4,stroke:#2e7d32,stroke-width:1px,color:#1b5e20;
+  classDef output fill:#ffe0b2,stroke:#e65100,stroke-width:1px,color:#e65100;
+
+  class RULES input;
+  class DEC output;
+```
+
+**Lecture** :
+– Tu donnes **des règles en entrée**,
+– Le moteur applique ces règles,
+– Tu obtiens une **décision/action en sortie**.
