@@ -1,6 +1,6 @@
-Parfait, voici tout réécrit d’un seul bloc avec **IA par règles**, **Machine Learning** et **Deep Learning**.
-Chaque diagramme est simplifié, colorisé, prêt pour GitHub et montre clairement l’entrée et la sortie.
-Deep Learning est présenté comme un cas particulier du ML pour **données non structurées / tâches complexes**.
+Parfait 🙂
+Voici la version réécrite, en incluant explicitement que le **Deep Learning** peut utiliser des données structurées ou non structurées, que la **tâche est complexe** et qu’il est **inspiré des neurones du cerveau humain**.
+Tout est prêt pour GitHub.
 
 ---
 
@@ -44,12 +44,12 @@ Données structurées en entrée → algorithme apprend des règles (modèle) �
 
 ---
 
-## Deep Learning (input = unstructured data, output = learned deep model + decision)
+## Deep Learning (input = structured or unstructured data, output = deep model + decision)
 
 ```mermaid
 flowchart LR
-  %% DL : données non structurées/tâches complexes -> réseau profond -> modèle appris -> décision
-  DATAU["DATA (unstructured input)"] --> NET["DEEP NEURAL NETWORK"] --> MODEL["DEEP MODEL (learned)"];
+  %% DL : données structurées ou non + tâche complexe -> réseau profond de neurones inspiré du cerveau humain -> modèle appris -> décision
+  DATAU["DATA (structured or unstructured input)"] --> NET["DEEP NEURAL NETWORK (brain-inspired neurons)"] --> MODEL["DEEP MODEL (learned)"];
   MODEL --> DEC["DECISION / PREDICTION (output)"];
 
   classDef input fill:#d4f7d4,stroke:#2e7d32,stroke-width:1px,color:#1b5e20; 
@@ -61,7 +61,7 @@ flowchart LR
 ```
 
 **Lecture** :
-Données **non structurées** (images, audio, texte) en entrée → réseau de neurones profond apprend un **modèle complexe** → modèle utilisé pour donner une **décision/prédiction**.
+Données **structurées ou non structurées** en entrée + **tâche complexe** → **réseau profond de neurones inspiré du cerveau humain** → **modèle appris** → **décision/prédiction**.
 
 ---
 
@@ -69,6 +69,6 @@ Données **non structurées** (images, audio, texte) en entrée → réseau de n
 
 * **IA par règles** : Règles en entrée → Décision en sortie (pas d’apprentissage).
 * **Machine Learning** : Données structurées en entrée → Règles apprises (modèle) → Décision.
-* **Deep Learning** : Données non structurées / tâches complexes en entrée → Réseau profond (modèle appris) → Décision.
+* **Deep Learning** : Données structurées ou non + tâches complexes en entrée → Réseau profond de neurones (imitation cerveau humain) → Modèle appris → Décision.
 
-Ces trois blocs Mermaid sont prêts à coller dans ton README.md et rendent correctement sur GitHub.
+Ces blocs Mermaid sont prêts à coller dans ton README.md.
