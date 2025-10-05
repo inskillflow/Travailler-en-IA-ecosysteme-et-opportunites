@@ -1,9 +1,4 @@
-Top — GitHub n’aime pas certains caractères (accents, guillemets échappés, parenthèses longues) dans les **titres de subgraph** et **labels** Mermaid.
-Voici des **versions 100% compatibles GitHub** (ASCII, labels simples), plus **plein d’exemples** à coller et tester.
-
----
-
-## 1) Machine Learning — learn rules from data (train + inference)
+# 1) Machine Learning — learn rules from data (train + inference)
 
 ```mermaid
 flowchart LR
@@ -31,9 +26,9 @@ flowchart LR
 * Entrée (training) : data + labels → Sortie : **model** (règles apprises)
 * Entrée (inference) : new data + model → Sortie : **prediction**
 
----
 
-## 2) Rules-based AI — programming (if-then)
+
+# 2) Rules-based AI — programming (if-then)
 
 ```mermaid
 flowchart LR
@@ -46,9 +41,9 @@ flowchart LR
 * Entrée : **règles écrites** + données d’exécution → Sortie : **décision**
 * Pas d’apprentissage automatique.
 
----
 
-## 3) Deep Learning — unstructured data, deep nets
+
+# 3) Deep Learning — unstructured data, deep nets
 
 ```mermaid
 flowchart LR
@@ -73,9 +68,9 @@ flowchart LR
 * Entrée (train) : données **non structurées** → Sortie : **poids/ modèle**
 * Entrée (infer) : nouvelles données + modèle → **prédiction / génération**
 
----
 
-# Beaucoup d’exemples à tester
+
+# Autres exemples
 
 ### A) ML (supervised) — classifier simple
 
@@ -176,13 +171,3 @@ flowchart LR
   Model -. used by .-> Pred
 ```
 
----
-
-## Conseils GitHub Mermaid
-
-* Évite les **accents**, **guillemets**, **parenthèses longues** dans les **titres de subgraph** et **labels**.
-* Utilise des labels courts en **ASCII**.
-* Garde la structure `flowchart LR|TB`, `subgraph ID[Title] ... end`.
-* Si un rendu échoue, **simplifie** d’abord les labels (pas de slash, pas de guillemets).
-
-Tu veux une variante **ultra-minimale** uniquement avec “Input/Output” pour coller en tête de chapitre ?
