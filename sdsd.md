@@ -5,7 +5,7 @@
 flowchart LR
   RULES["RULES (input)"] --> ENGINE["RULE ENGINE"] --> DEC["DECISION (output)"];
 
-  classDef input fill:#d4f7d4,stroke:#2e7d32,stroke-width:1px,color:#1b5e20;
+  classDef input fill:#ffe0b2,stroke:#e65100,stroke-width:1px,color:#e65100;
   classDef output fill:#ffe0b2,stroke:#e65100,stroke-width:1px,color:#e65100;
 
   class RULES input;
