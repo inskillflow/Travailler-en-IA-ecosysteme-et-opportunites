@@ -11,29 +11,6 @@ Dans tous ces cas, **aucun apprentissage**, juste des règles programmées.
 
 
 
-# 2. **Machine Learning (ML)**  
-C’est un sous-ensemble de l’IA : la machine **apprend des règles automatiquement à partir de données structurées et propres** pour résoudre une tâche pas trop complexe.  
-On ne code plus “si… alors…”, on donne des **exemples (données)** et l’algorithme **trouve les patterns**.  
-
-**Exemples :**  
-– Prédire le prix d’un logement en fonction de surface et localisation  
-– Classer des emails en “spam” ou “non spam”  
-– Ajuster automatiquement des prix selon l’historique des ventes  
-
-
-
-# 3. **Deep Learning (DL)**  
-C’est un sous-ensemble du Machine Learning, **inspiré du fonctionnement du cerveau humain**, utilisant des **réseaux de neurones à plusieurs couches**.  
-Il est fait pour des **tâches très complexes** ou des **données massives et souvent non structurées** (images, sons, texte libre).  
-
-**Exemples :**  
-– Reconnaissance d’objets dans des images  
-– Reconnaissance vocale à grande échelle  
-– Générer un avatar virtuel qui parle et imite ta voix à partir de milliers d’échantillons
-
-
-
-
 ## IA par règles (input = rules, output = decision)
 
 ```mermaid
@@ -50,6 +27,18 @@ flowchart LR
 
 **Lecture** :
 Règles programmées en entrée → moteur applique les règles → décision en sortie (aucun apprentissage).
+
+
+
+# 2. **Machine Learning (ML)**  
+C’est un sous-ensemble de l’IA : la machine **apprend des règles automatiquement à partir de données structurées et propres** pour résoudre une tâche pas trop complexe.  
+On ne code plus “si… alors…”, on donne des **exemples (données)** et l’algorithme **trouve les patterns**.  
+
+**Exemples :**  
+– Prédire le prix d’un logement en fonction de surface et localisation  
+– Classer des emails en “spam” ou “non spam”  
+– Ajuster automatiquement des prix selon l’historique des ventes  
+
 
 
 
@@ -71,6 +60,21 @@ flowchart LR
 
 **Lecture** :
 Données structurées en entrée → algorithme apprend des règles (modèle) → règles appliquées pour produire une décision.
+
+
+
+
+# 3. **Deep Learning (DL)**  
+C’est un sous-ensemble du Machine Learning, **inspiré du fonctionnement du cerveau humain**, utilisant des **réseaux de neurones à plusieurs couches**.  
+Il est fait pour des **tâches très complexes** ou des **données massives et souvent non structurées** (images, sons, texte libre).  
+
+**Exemples :**  
+– Reconnaissance d’objets dans des images  
+– Reconnaissance vocale à grande échelle  
+– Générer un avatar virtuel qui parle et imite ta voix à partir de milliers d’échantillons
+
+
+
 
 
 
