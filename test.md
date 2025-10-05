@@ -127,15 +127,10 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  AV_DATA[(Audio/Video samples)]
-  TTS_DL[Deep model (Transformer)]
-  VOICE[(Learned voice/face model)]
-  SCRIPT[(Text prompt)]
-  OUTPUT[Talking avatar (audio/video)]
-
-  AV_DATA --> TTS_DL --> VOICE
-  VOICE --> OUTPUT
-  SCRIPT --> OUTPUT
+  AV_DATA["Audio/Video samples"]; MODEL["Deep model (Transformer)"]; VOICE["Learned voice/face model"]; SCRIPT["Text prompt"]; OUTPUT["Talking avatar (audio/video)"];
+  AV_DATA --> MODEL --> VOICE;
+  VOICE --> OUTPUT;
+  SCRIPT --> OUTPUT;
 ```
 
 ### E) Rules-based — vending machine / washer / calculator
