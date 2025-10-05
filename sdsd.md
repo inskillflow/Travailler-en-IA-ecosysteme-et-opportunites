@@ -1,9 +1,18 @@
-D’accord 🙂
-Voici les **diagrammes Mermaid ultra-simples** qui montrent **input** et **output** avec les **mêmes couleurs pour “rules” et “data”**, prêts à coller sur GitHub.
 
----
+# IA par règles (input = rules, output = decision)
 
-### Machine Learning (input = data, output = learned rules)
+```mermaid
+flowchart LR
+  RULES["RULES (input)"] --> ENGINE["RULE ENGINE"] --> DEC["DECISION (output)"];
+
+  classDef input fill:#d4f7d4,stroke:#2e7d32,stroke-width:1px,color:#1b5e20;
+  classDef output fill:#ffe0b2,stroke:#e65100,stroke-width:1px,color:#e65100;
+
+  class RULES input;
+  class DEC output;
+```
+
+# Machine Learning (input = data, output = learned rules)
 
 ```mermaid
 flowchart LR
@@ -19,7 +28,7 @@ flowchart LR
 
 ---
 
-### IA par règles (input = rules, output = decision)
+
 
 ```mermaid
 flowchart LR
@@ -52,16 +61,7 @@ Tu peux ainsi montrer clairement la différence :
 
 Parfait, voici le diagramme **IA par règles** simplifié au maximum avec **juste RULES en input** (colorié) et **DECISION en output** (colorié). Compatible GitHub :
 
-```mermaid
-flowchart LR
-  RULES["RULES (input)"] --> ENGINE["RULE ENGINE"] --> DEC["DECISION (output)"];
 
-  classDef input fill:#d4f7d4,stroke:#2e7d32,stroke-width:1px,color:#1b5e20;
-  classDef output fill:#ffe0b2,stroke:#e65100,stroke-width:1px,color:#e65100;
-
-  class RULES input;
-  class DEC output;
-```
 
 **Lecture** :
 – Tu donnes **des règles en entrée**,
