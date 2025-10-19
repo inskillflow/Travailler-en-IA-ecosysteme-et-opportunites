@@ -1,11 +1,49 @@
-> **Instructeur :** REHOUMA Haythem
-> **Date :** Octobre 2025
+# Quiz – IA / ML / DL
+
+> **Instructeur :** REHOUMA Haythem  
+> **Date :** Octobre 2025  
 > **Durée :** 25 minutes (Partie Quiz)
-> **Consignes :**
-  
-- Lisez attentivement chaque énoncé.
-- Pour chaque question (1 à 10), indiquez **une seule** catégorie : **IA**, **ML** ou **DL**.
-- IA = systèmes à règles, **sans apprentissage** ; ML = apprentissage **sans réseaux profonds** ; DL = **réseaux de neurones profonds** (CNN/RNN/Transformers, etc.).
+
+---
+
+## Consignes
+
+> Lisez attentivement chaque énoncé. Pour chaque question (1 à 10), indiquez **une seule** catégorie : **IA**, **ML** ou **DL**.
+
+### Rappels (classification attendue)
+
+| Catégorie | Définition courte | Exemples typiques |
+|---|---|---|
+| **IA** | Systèmes **à règles**, pas d’apprentissage | Arbres de décision scriptés, moteurs de règles, recherche d’états |
+| **ML** | Apprentissage **sans réseaux profonds** sur données souvent **structurées** | Régression, SVM, forêts/boosting, recommandation MF |
+| **DL** | **Réseaux de neurones profonds** (CNN / RNN / Transformers) | Vision, audio, NLP libre, modèles end-to-end |
+
+**Mémo rapide :**  
+- IA = règles déterministes (**sans apprentissage**)  
+- ML = apprentissage **classique** (**sans** deep nets)  
+- DL = apprentissage **profond** (CNN/RNN/Transformers)
+
+---
+
+## Réponses attendues (à compléter par l’étudiant)
+
+1) ______  
+2) ______  
+3) ______  
+4) ______  
+5) ______  
+6) ______  
+7) ______  
+8) ______  
+9) ______  
+10) ______
+
+---
+
+## À rendre
+- Feuille de réponses **complète et lisible**  
+- Justifications brèves lorsque demandé  
+- Respect du temps imparti
 
 
 # Partie 1 - Quiz – IA / ML / DL 
