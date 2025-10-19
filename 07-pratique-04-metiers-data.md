@@ -400,7 +400,8 @@ $$
 \mathrm{LTV}=60\times 0{,}4\times 5=120\,\$
 $$
 
-*(SaaS, courant) :*
+(SaaS, courant) 
+
 $$
 \mathrm{LTV}=\frac{\mathrm{ARPA}\times\text{Marge}}{\text{Taux de churn}}
 $$
@@ -408,7 +409,7 @@ $$
 
 
 ## 4) ROAS — Retour sur Dépenses Pub
-**Question :** “Pour **1 $** dépensé en pub, combien de **revenus** reviennent ?”
+**Question :** “Pour **1 $** dépensé en pub, combien de **revenus** reviennent ?
 
 Formule
 
