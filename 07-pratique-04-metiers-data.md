@@ -341,73 +341,121 @@ ______________________________________________________________________________
 
 
 
-# Annexe utiles:
-
-
-* **A/B (test A/B)**
-  Expérimentation où l’on compare **deux variantes** (A vs B) d’une même campagne/page/annonce pour voir laquelle performe mieux sur un **indicateur unique** (ex. conversion).
-  Règle d’or : 1 changement à la fois, échantillon suffisant, arrêt basé sur la **significativité** (pas “au feeling”).
-
-* **CAC (Customer Acquisition Cost / Coût d’acquisition client)**
-  **Combien coûte** en moyenne l’acquisition d’1 client.
-  **Formule** : ( \text{CAC} = \dfrac{\text{Dépenses marketing+vente sur une période}}{\text{Nombre de nouveaux clients}} )
-
-* **LTV (Lifetime Value / Valeur vie client)**
-  **Valeur totale** qu’un client génère sur toute sa relation.
-  **Formule simple** : ( \text{LTV} = \text{Panier moyen} \times \text{Marge} \times \text{Nombre d’achats sur la durée} )
-  (En SaaS, on utilise souvent ( \text{LTV} = \dfrac{\text{ARPA} \times \text{Marge}}{\text{Taux de churn}} ).)
-
-* **ROAS (Return On Ad Spend / Retour sur dépenses publicitaires)**
-  **Recettes générées** pour **1 unité** de budget publicitaire.
-  **Formule** : ( \text{ROAS} = \dfrac{\text{Revenus attribués aux pubs}}{\text{Dépenses pubs}} )
-  Lecture : ROAS = 4 signifie 1 $ dépensé → 4 $ de revenus.
 
 
 
-- **CAC (Customer Acquisition Cost / Coût d’acquisition client)**  
-  Coût moyen pour acquérir 1 client.
-
-  $$
-  \mathrm{CAC}=\frac{\text{Dépenses marketing + ventes sur la période}}{\text{Nombre de nouveaux clients}}
-  $$
-
-- **LTV (Lifetime Value / Valeur vie client)**  
-  Valeur totale générée par un client sur la durée.
-
-  Formule générale (retail) :
-  $$
-  \mathrm{LTV}=\text{Panier moyen}\times\text{Marge}\times\text{Nombre d'achats}
-  $$
-
-  Formule courante en SaaS :
-  $$
-  \mathrm{LTV}=\frac{\mathrm{ARPA}\times\text{Marge}}{\text{Taux de churn}}
-  $$
-
-- **ROAS (Return On Ad Spend / Retour sur dépenses publicitaires)**  
-  Revenus générés par unité de dépense pub.
-
-  $$
-  \mathrm{ROAS}=\frac{\text{Revenus attribués aux publicités}}{\text{Dépenses publicitaires}}
-  $$
-
-- **Ratio de viabilité** (souvent suivi par le Growth) :
-  $$
-  \frac{\mathrm{LTV}}{\mathrm{CAC}}
-  $$
 
 
-### Mini-exemple relié
 
-* Dépenses publicitaires mensuelles : 10 000 $
-* Nouveaux clients : 200 → **CAC = 10 000 / 200 = 50 $**
-* Par client : panier moyen 60 $, marge 40 %, 5 achats sur la durée → **LTV = 60 × 0,4 × 5 = 120 $**
-* Revenus attribués aux pubs : 40 000 $ → **ROAS = 40 000 / 10 000 = 4**
-* Lecture “Growth” : **LTV/CAC = 120 / 50 = 2,4** (souvent on vise > 3 pour un modèle très sain; 2–3 peut être acceptable selon le cash-flow et le churn).
 
-### À retenir pour un/une Marketing/Growth Analyst
 
-* Prioriser des **tests A/B** propres (un KPI, un changement, échantillons suffisants).
-* Suivre **CAC**, **LTV**, **LTV/CAC** et **ROAS** ensemble (pas isolément).
-* Agir : baisser le **CAC** (meilleur ciblage, créas), **augmenter le LTV** (upsell, rétention), et optimiser le **ROAS** (allocation budgétaire vers les canaux/annonces gagnants).
+
+
+
+# Annexe — A/B, CAC, LTV, ROAS, LTV/CAC
+
+## 1) Test A/B (très simple)
+**Idée :** on compare **A** et **B** (une **seule** différence) et on garde celui qui a le **meilleur chiffre** (un **seul KPI**).
+
+**Règles utiles :** un changement → un KPI → assez de données → arrêter selon un critère chiffré (pas au feeling).
+
+**Exemples de KPI :** taux d’ouverture, taux de clic, taux d’achat.
+
+---
+
+## 2) CAC — Coût d’Acquisition Client
+**Question :** “Combien ça coûte, en moyenne, d’obtenir **1 client** ?”
+
+**Formule :**
+$$
+\mathrm{CAC}=\frac{\text{Dépenses marketing + ventes (période)}}{\text{Nombre de nouveaux clients}}
+$$
+
+**Exemple :** 10 000 $ de dépenses, 200 clients →  
+$$
+\mathrm{CAC}= \frac{10\,000}{200}=50\,\$
+$$
+
+---
+
+## 3) LTV — Valeur Vie Client
+**Question :** “Combien un client rapporte **au total** sur la **durée** (en **marge**, pas juste en revenu) ?”
+
+**Formule (retail, simple) :**
+$$
+\mathrm{LTV}=\text{Panier moyen}\times\text{Marge}\times\text{Nombre d'achats}
+$$
+
+**Exemple :** panier 60 $, marge 40 % (=0,4), 5 achats →  
+$$
+\mathrm{LTV}=60\times 0{,}4\times 5=120\,\$
+$$
+
+*(SaaS, courant) :*
+$$
+\mathrm{LTV}=\frac{\mathrm{ARPA}\times\text{Marge}}{\text{Taux de churn}}
+$$
+
+---
+
+## 4) ROAS — Retour sur Dépenses Pub
+**Question :** “Pour **1 $** dépensé en pub, combien de **revenus** reviennent ?”
+
+**Formule :**
+$$
+\mathrm{ROAS}=\frac{\text{Revenus attribués aux pubs}}{\text{Dépenses publicitaires}}
+$$
+
+**Exemple :** 40 000 $ de revenus / 10 000 $ de dépenses →  
+$$
+\mathrm{ROAS}= \frac{40\,000}{10\,000}=4
+$$
+*(on lit : “1 $ dépensé → 4 $ de revenus”)*
+
+---
+
+## 5) LTV/CAC — Ratio de viabilité
+**Idée :** “Est-ce que le modèle tient la route ?” (plus c’est grand, mieux c’est)
+
+**Formule :**
+$$
+\frac{\mathrm{LTV}}{\mathrm{CAC}}
+$$
+
+**Règle simple (indicative) :**
+- **> 3** : très bien  
+- **2–3** : OK selon contexte  
+- **< 1** : on perd de l’argent par client
+
+
+
+## 6) Mini-exemple complet (tout ensemble)
+
+- Dépenses pub : **10 000 $**  
+- Nouveaux clients : **200**  
+- Panier : **60 $** • Marge : **40 %** (=0,4) • Achats : **5**  
+- Revenus attribués pubs : **40 000 $**
+
+Calculs 
+$$
+\mathrm{CAC}= \frac{10\,000}{200}=50\,\$, \quad
+\mathrm{LTV}=60\times 0{,}4\times 5=120\,\$, \quad
+\mathrm{ROAS}=\frac{40\,000}{10\,000}=4,
+$$
+
+$$
+\frac{\mathrm{LTV}}{\mathrm{CAC}}=\frac{120}{50}=2{,}4
+$$
+
+**Lecture :** ratio **2,4** → correct, mais on vise souvent **≥ 3**.
+
+
+
+## 7) À retenir (en 5 lignes)
+- **A/B** : 1 changement, 1 KPI, assez de données, arrêt chiffré.  
+- **CAC** : coût moyen pour gagner **1 client**.  
+- **LTV** : **valeur totale** d’un client (penser **marge**).  
+- **ROAS** : revenus par **1 $** de pub.  
+- **LTV/CAC** : boussole de **viabilité** (viser **≥ 3** si possible).
+
 
