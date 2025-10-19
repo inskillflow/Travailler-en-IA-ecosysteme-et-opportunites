@@ -361,27 +361,32 @@ ______________________________________________________________________________
 
 **Exemples de KPI :** taux d’ouverture, taux de clic, taux d’achat.
 
----
+
 
 ## 2) CAC — Coût d’Acquisition Client
 **Question :** “Combien ça coûte, en moyenne, d’obtenir **1 client** ?”
 
-**Formule :**
+Formule 
+
 $$
 \mathrm{CAC}=\frac{\text{Dépenses marketing + ventes (période)}}{\text{Nombre de nouveaux clients}}
 $$
 
 **Exemple :** 10 000 $ de dépenses, 200 clients →  
+
+
 $$
 \mathrm{CAC}= \frac{10\,000}{200}=50\,\$
 $$
 
----
+
 
 ## 3) LTV — Valeur Vie Client
 **Question :** “Combien un client rapporte **au total** sur la **durée** (en **marge**, pas juste en revenu) ?”
 
-**Formule (retail, simple) :**
+Formule (retail, simple)
+
+
 $$
 \mathrm{LTV}=\text{Panier moyen}\times\text{Marge}\times\text{Nombre d'achats}
 $$
@@ -396,28 +401,34 @@ $$
 \mathrm{LTV}=\frac{\mathrm{ARPA}\times\text{Marge}}{\text{Taux de churn}}
 $$
 
----
+
 
 ## 4) ROAS — Retour sur Dépenses Pub
 **Question :** “Pour **1 $** dépensé en pub, combien de **revenus** reviennent ?”
 
-**Formule :**
+Formule
+
+
 $$
 \mathrm{ROAS}=\frac{\text{Revenus attribués aux pubs}}{\text{Dépenses publicitaires}}
 $$
 
 **Exemple :** 40 000 $ de revenus / 10 000 $ de dépenses →  
+
 $$
 \mathrm{ROAS}= \frac{40\,000}{10\,000}=4
 $$
+
 *(on lit : “1 $ dépensé → 4 $ de revenus”)*
 
----
+
 
 ## 5) LTV/CAC — Ratio de viabilité
 **Idée :** “Est-ce que le modèle tient la route ?” (plus c’est grand, mieux c’est)
 
-**Formule :**
+Formule 
+
+
 $$
 \frac{\mathrm{LTV}}{\mathrm{CAC}}
 $$
@@ -437,6 +448,7 @@ $$
 - Revenus attribués pubs : **40 000 $**
 
 Calculs 
+
 $$
 \mathrm{CAC}= \frac{10\,000}{200}=50\,\$, \quad
 \mathrm{LTV}=60\times 0{,}4\times 5=120\,\$, \quad
