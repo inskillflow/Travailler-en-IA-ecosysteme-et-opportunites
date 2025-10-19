@@ -1,7 +1,7 @@
-- **Instructeur :** REHOUMA Haythem
-- **Date :** Octobre 2025
-- **Durée :** 25 minutes (Partie Quiz)
-- **Consignes :**
+> **Instructeur :** REHOUMA Haythem
+> **Date :** Octobre 2025
+> **Durée :** 25 minutes (Partie Quiz)
+> **Consignes :**
   
 - Lisez attentivement chaque énoncé.
 - Pour chaque question (1 à 10), indiquez **une seule** catégorie : **IA**, **ML** ou **DL**.
