@@ -5,7 +5,7 @@
 
 
 
-## GLOSSAIRE DES MÉTIERS
+## GLOSSAIRE DES TERMES TECHNIQUES
 
 - **KPI** : chiffre important pour piloter (ex : chiffre d’affaires, taux de conversion).  
 - **Entrepôt de données (Data Warehouse)** : grande base **officielle** et **propre** pour analyser.  
