@@ -355,6 +355,7 @@ ______________________________________________________________________________
 # Annexe — A/B, CAC, LTV, ROAS, LTV/CAC
 
 ## 1) Test A/B (très simple)
+
 **Idée :** on compare **A** et **B** (une **seule** différence) et on garde celui qui a le **meilleur chiffre** (un **seul KPI**).
 
 **Règles utiles :** un changement → un KPI → assez de données → arrêter selon un critère chiffré (pas au feeling).
@@ -364,7 +365,8 @@ ______________________________________________________________________________
 
 
 ## 2) CAC — Coût d’Acquisition Client
-**Question :** “Combien ça coûte, en moyenne, d’obtenir **1 client** ?”
+
+Question : Combien ça coûte, en moyenne, d’obtenir 1 client?
 
 Formule 
 
@@ -372,7 +374,7 @@ $$
 \mathrm{CAC}=\frac{\text{Dépenses marketing + ventes (période)}}{\text{Nombre de nouveaux clients}}
 $$
 
-**Exemple :** 10 000 $ de dépenses, 200 clients →  
+Exemple : 10 000 $ de dépenses, 200 clients 
 
 
 $$
@@ -392,6 +394,8 @@ $$
 $$
 
 **Exemple :** panier 60 $, marge 40 % (=0,4), 5 achats →  
+
+
 $$
 \mathrm{LTV}=60\times 0{,}4\times 5=120\,\$
 $$
