@@ -362,6 +362,41 @@ ______________________________________________________________________________
   **Formule** : ( \text{ROAS} = \dfrac{\text{Revenus attribués aux pubs}}{\text{Dépenses pubs}} )
   Lecture : ROAS = 4 signifie 1 $ dépensé → 4 $ de revenus.
 
+
+
+- **CAC (Customer Acquisition Cost / Coût d’acquisition client)**  
+  Coût moyen pour acquérir 1 client.
+
+  $$
+  \mathrm{CAC}=\frac{\text{Dépenses marketing + ventes sur la période}}{\text{Nombre de nouveaux clients}}
+  $$
+
+- **LTV (Lifetime Value / Valeur vie client)**  
+  Valeur totale générée par un client sur la durée.
+
+  Formule générale (retail) :
+  $$
+  \mathrm{LTV}=\text{Panier moyen}\times\text{Marge}\times\text{Nombre d'achats}
+  $$
+
+  Formule courante en SaaS :
+  $$
+  \mathrm{LTV}=\frac{\mathrm{ARPA}\times\text{Marge}}{\text{Taux de churn}}
+  $$
+
+- **ROAS (Return On Ad Spend / Retour sur dépenses publicitaires)**  
+  Revenus générés par unité de dépense pub.
+
+  $$
+  \mathrm{ROAS}=\frac{\text{Revenus attribués aux publicités}}{\text{Dépenses publicitaires}}
+  $$
+
+- **Ratio de viabilité** (souvent suivi par le Growth) :
+  $$
+  \frac{\mathrm{LTV}}{\mathrm{CAC}}
+  $$
+
+
 ### Mini-exemple relié
 
 * Dépenses publicitaires mensuelles : 10 000 $
