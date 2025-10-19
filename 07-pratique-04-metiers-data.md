@@ -64,7 +64,7 @@
 
 **Consigne.** Pour **chaque terme** ci-dessous :
 1) Faire une recherche sur internet.
-2) Donnez une **définition simple.  
+2) Donnez une **définition simple**.  
 3) Ajoutez **1 exemple** (comment on l’utilise).  
 
 
