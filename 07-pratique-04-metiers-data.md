@@ -262,7 +262,7 @@ ______________________________________________________________________________
 <br/>
 
 
-## PARTIE G — Recherche LinkedIn & analyse d’offres (terrain) 
+## PARTIE 8 — Recherche LinkedIn & analyse d’offres (terrain) 
 
 **Objectif.** Savoir cibler un métier, analyser des offres réelles et en déduire un plan d’action (compétences + portfolio).
 
