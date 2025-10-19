@@ -4,7 +4,7 @@
 > **Date :** Octobre 2025  
 > **Durée :** 25 minutes (Partie Quiz)
 
----
+<br/>
 
 ## Consignes
 
@@ -23,9 +23,9 @@
 - ML = apprentissage **classique** (**sans** deep nets)  
 - DL = apprentissage **profond** (CNN/RNN/Transformers)
 
----
+<br/>
 
-## Réponses attendues (à compléter par l’étudiant)
+## Réponses attendues pour la partie 1 (à compléter par l’étudiant)
 
 1) ______  
 2) ______  
@@ -38,13 +38,15 @@
 9) ______  
 10) ______
 
----
+
 
 ## À rendre
 - Feuille de réponses **complète et lisible**  
 - Justifications brèves lorsque demandé  
 - Respect du temps imparti
 
+
+<br/>
 
 # Partie 1 - Quiz – IA / ML / DL 
 
