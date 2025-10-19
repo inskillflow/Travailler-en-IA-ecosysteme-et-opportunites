@@ -340,3 +340,39 @@ ______________________________________________________________________________
 - **Campagnes/attribution/budget** → Marketing Analyst / Marketing DS
 
 
+
+# Annexe utiles:
+
+
+* **A/B (test A/B)**
+  Expérimentation où l’on compare **deux variantes** (A vs B) d’une même campagne/page/annonce pour voir laquelle performe mieux sur un **indicateur unique** (ex. conversion).
+  Règle d’or : 1 changement à la fois, échantillon suffisant, arrêt basé sur la **significativité** (pas “au feeling”).
+
+* **CAC (Customer Acquisition Cost / Coût d’acquisition client)**
+  **Combien coûte** en moyenne l’acquisition d’1 client.
+  **Formule** : ( \text{CAC} = \dfrac{\text{Dépenses marketing+vente sur une période}}{\text{Nombre de nouveaux clients}} )
+
+* **LTV (Lifetime Value / Valeur vie client)**
+  **Valeur totale** qu’un client génère sur toute sa relation.
+  **Formule simple** : ( \text{LTV} = \text{Panier moyen} \times \text{Marge} \times \text{Nombre d’achats sur la durée} )
+  (En SaaS, on utilise souvent ( \text{LTV} = \dfrac{\text{ARPA} \times \text{Marge}}{\text{Taux de churn}} ).)
+
+* **ROAS (Return On Ad Spend / Retour sur dépenses publicitaires)**
+  **Recettes générées** pour **1 unité** de budget publicitaire.
+  **Formule** : ( \text{ROAS} = \dfrac{\text{Revenus attribués aux pubs}}{\text{Dépenses pubs}} )
+  Lecture : ROAS = 4 signifie 1 $ dépensé → 4 $ de revenus.
+
+### Mini-exemple relié
+
+* Dépenses publicitaires mensuelles : 10 000 $
+* Nouveaux clients : 200 → **CAC = 10 000 / 200 = 50 $**
+* Par client : panier moyen 60 $, marge 40 %, 5 achats sur la durée → **LTV = 60 × 0,4 × 5 = 120 $**
+* Revenus attribués aux pubs : 40 000 $ → **ROAS = 40 000 / 10 000 = 4**
+* Lecture “Growth” : **LTV/CAC = 120 / 50 = 2,4** (souvent on vise > 3 pour un modèle très sain; 2–3 peut être acceptable selon le cash-flow et le churn).
+
+### À retenir pour un/une Marketing/Growth Analyst
+
+* Prioriser des **tests A/B** propres (un KPI, un changement, échantillons suffisants).
+* Suivre **CAC**, **LTV**, **LTV/CAC** et **ROAS** ensemble (pas isolément).
+* Agir : baisser le **CAC** (meilleur ciblage, créas), **augmenter le LTV** (upsell, rétention), et optimiser le **ROAS** (allocation budgétaire vers les canaux/annonces gagnants).
+
