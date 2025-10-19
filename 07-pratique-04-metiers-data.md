@@ -1,6 +1,6 @@
 # Examen final — Métiers Data, IA, Big Data, BI, GenAI & Marketing 
 
-**Durée :** 120 minutes  
+**Durée :** 3 heures 
 **Consignes :** Utilisez des mots simples. 
 
 
